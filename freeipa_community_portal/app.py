@@ -38,6 +38,7 @@ from freeipa_community_portal.model.user import User
 
 
 TEMPLATE_ENV = jinja2.Environment(
+    autoescape=True,
     loader=jinja2.PackageLoader('freeipa_community_portal', 'templates'))
 
 
